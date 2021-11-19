@@ -1,0 +1,144 @@
+body{
+  color:#40514E;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 90px;
+  margin: 50px auto 0 ;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom:10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+  width: 8%;
+  border-style: dotted none none;
+  border-width: 6px;
+  border-color: #EAF6F6;
+  margin: 100px auto;
+}
+
+
+.topContainer{
+  background-color: #E4F9F5;
+  position:relative;
+  padding-top:100px;
+
+}
+
+.middle-container{
+ text-align: center;
+ margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 40px 0 20px;
+}
+
+.btn {
+  background: #00e5f5;
+  background-image: -webkit-linear-gradient(top, #00e5f5, #00ccff);
+  background-image: -moz-linear-gradient(top, #00e5f5, #00ccff);
+  background-image: -ms-linear-gradient(top, #00e5f5, #00ccff);
+  background-image: -o-linear-gradient(top, #00e5f5, #00ccff);
+  background-image: linear-gradient(to bottom, #00e5f5, #00ccff);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #04bd9e;
+  background-image: -webkit-linear-gradient(top, #04bd9e, #00ed96);
+  background-image: -moz-linear-gradient(top, #04bd9e, #00ed96);
+  background-image: -ms-linear-gradient(top, #04bd9e, #00ed96);
+  background-image: -o-linear-gradient(top, #04bd9e, #00ed96);
+  background-image: linear-gradient(to bottom, #04bd9e, #00ed96);
+  text-decoration: none;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.top-cloud{
+  position:absolute;
+  top: 50px;
+  right:300px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom:300px;
+}
+
+.computer-img {
+  width:25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100px;
+}
+
+.bread-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+  border-radius:100px;
+}
+ .profile{
+   border-radius: 100%;
+ }
+
+ .contact-message{
+   width: 40%;
+   margin:40px auto 60px;
+ }
+
+.copyright{
+ color:#EAF6F6;
+font-size: 0.76rem;
+padding: 20px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto ;
+  text-align: left;
+}
